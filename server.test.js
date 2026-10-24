@@ -5,7 +5,7 @@ const app = require('./server');
 
 test('GET /tasks returns 200 and an array', async () => {
   const response = await request(app).get('/tasks');
-  assert.equal(response.status, 201);
+  assert.equal(response.status, 200);
   assert.ok(Array.isArray(response.body));
 });
 
