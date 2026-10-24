@@ -1,0 +1,9 @@
+{
+  "name": "practical-12-ci-cd",
+  "version": "1.0.0",
+  "private": true,
+  "type": "commonjs",
+  "scripts": { "start": "node server.js", "test": "node --test", "lint": "eslint ." },
+  "dependencies": { "express": "^5.1.0" },
+  "devDependencies": { "eslint": "^8.57.1", "supertest": "^7.1.4" }
+}
